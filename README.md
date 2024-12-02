@@ -2,7 +2,8 @@
 
 ## Answers 
 ### Questions 1, 2, and 3
-My logistic_growth repositry is here: https://github.com/anonymous-branches/logistic_growth
+My 'logistic_growth' repository is here: https://github.com/anonymous-branches/logistic_growth
+The answers to questions 1, 2 and 3 are within in the README.md file of the 'logistic_growth' repository. 
 
 ## Instructions
 
