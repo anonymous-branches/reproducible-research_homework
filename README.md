@@ -41,10 +41,18 @@ I used a natural logarithm transformation: `log()` in R.
 The allometric equation they describe (<i>V = αL<sup>β</sup></i>) can be expressed as a linear equation, if a natural log (ln) transformation is applied (<i>ln(V) = ln(α) + β * ln(L) </i>)
 
 <b>c) Find the exponent (β) and scaling factor (α) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in Table 2 of the paper, did you find the same values? (10 points) </b>
+The estimate of the scaling factor (α) (the intercept of the linear model) I obtained was <b>1181.807</b>. The model output was 7.0748. Since the model was written in terms of ln(α), to find the value of alpha, I calculated <i>e</i><sup> 7.0748</sup> = 1181.807. This had a p-value of 2.28x10<sup>-10</sup>, so was significant at the 99% significance level. 
+The estimate of the exponent (β) (the slope of the linear model) I obtained was <b>1.5142</b>. The linear form of the equation just contains β not logged, so this value required no further calculation. This estimate had a p-value of 6.44x10<sup>-10</sup>, so was also signficant at the 99% significance level. 
 
+Cui, et al., 2014, estimate that, for dsDNA viruses, the exponent (β) = 1.52 (with a 95% confidence interval of 1.16–1.87) and the scaling factor (α) = 	1,182 (95% confidence interval: 246–5,675). These estimates are very similar to mine, with small differences that can be attributed to Cui, et al., rounding their estimates. 
+ 
 <b>d) Write the code to reproduce the figure shown below. (10 points)</b>
+The code I wrote is included in `question-5-code.R`. This is the graph I produced:
+![graph_for_5_d](https://github.com/user-attachments/assets/9cb164db-28f7-4f4c-8ebf-b37fbd1571db)
+<figcaption><i>Figure 2. Graph of the relationship between the natural log of genome length and the natural log of virion volume. Produced with the aim of reproducing the figure given in the question.</i></figcaption>
 
 <b>e) What is the estimated volume of a 300 kb dsDNA virus? (4 points) </b>
+The predicted volume of a 300kb dsDNA virus is 6698070 nm<sup>3</sup>. I obtained this value using the `predict()` function in R to use my linear model to predict the viral volume. I input ln(300) and recieved the output 15.71733 = log(V). <i>e</i><sup>15.71733</sup> = 6698070 nm<sup>3</sup>
 
 ## Instructions
 
