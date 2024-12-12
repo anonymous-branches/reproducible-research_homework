@@ -23,6 +23,9 @@ I edited the code to add `set.seed()` to make the results of `runif()` reproduci
 
 <b> d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the README.md of the fork). (5 points) </b> 
 
+![random_walk_comparison_view](https://github.com/user-attachments/assets/8e918e5e-71c3-46fe-aa4e-33b7de1f95d3)
+<figcaption><i>Figure 1. Edits I made to the random_walk.R script.<i></figcaption>
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
