@@ -18,6 +18,9 @@ A random seed is a number or vector that is used to initialise the selection of 
 The random seed is used to generate a sequence of numbers that approximates the properties of a random sequence. The resulting sequence is not actually random (i.e. is 'pseudorandom') because the sequence is determined by the value of the random seed chosen. This means that whenever the same seed is used, the same sequence will be obtained. This sacrifices 'true' randomness for reproducibility. Random seeds are key in our ability to reproduce the same outputs when working with code reliant on random processes.
 
 <b> c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked reproducible-research_homework repo. (10 points) </b>
+
+I edited the code to add `set.seed()` to make the results of `runif()` reproducible. I put `set.seed()` outside of the for loop because if `set.seed()` was within the for loop, each iteration of the loop would give the same result - i.e every angle generated would be the same. Having `set.seed()` outside of the loop means that the angles are drawn from the same pseudorandom sequence (so are reproducible), but do not have the same value for each iteration, so the result of the code still replicates brownian motion, rather than a straight line.   
+
 <b> d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the README.md of the fork). (5 points) </b> 
 
 ## Instructions
