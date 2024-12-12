@@ -13,6 +13,8 @@ The answers to questions 1, 2 and 3 are within in the README.md file of the 'log
 The random walk produced each time you run the code is different, even if the same number of steps (e.g. 500) is used. All the outputs are completely random, but this means that the result is not reproducible, as if you run the code a second time / if someone else were to run this code, you would get different outputs. 
 
 <b> b) Investigate the term random seeds. What is a random seed and how does it work? (5 points)</b>
+A random seed is a number or vector that is used to initialise the selection of numbers by a pseudo-random number generator in a reproducible way.
+The random seed is used to generate a sequence of numbers that approximates the properties of a random sequence, but is not actually random (i.e. is 'pseudorandom') because the resulting sequence is determined by the value of the random seed. This means that whenever the same seed is used, the same sequence will be obtained. This sacrifices 'true' randomness for reproducibility. 
 
 <b> c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked reproducible-research_homework repo. (10 points) </b>
 <b> d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the README.md of the fork). (5 points) </b> 
