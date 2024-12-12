@@ -32,6 +32,8 @@ I edited the code to add `set.seed()` to make the results of `runif()` reproduci
 
 <b>a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the question-5-data folder). How many rows and columns does the table have? (3 points) </b>
 
+The table has 33 rows and 13 columns. 
+
 <b>b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points) </b>
 
 <b>c) Find the exponent (β) and scaling factor (α) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in Table 2 of the paper, did you find the same values? (10 points) </b>
