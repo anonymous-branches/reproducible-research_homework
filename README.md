@@ -36,6 +36,9 @@ The table has 33 rows and 13 columns.
 
 <b>b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points) </b>
 
+A log transformation for both virion volume and genome length will enable fitting a linear model. 
+The allometric equation they describe (<i>V = αL<sup>β</sup></i>) can be expressed as a linear equation, if a log transformation is applied (<i>log(V) = log(α) + β * log(L) </i>)
+
 <b>c) Find the exponent (β) and scaling factor (α) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in Table 2 of the paper, did you find the same values? (10 points) </b>
 
 <b>d) Write the code to reproduce the figure shown below. (10 points)</b>
