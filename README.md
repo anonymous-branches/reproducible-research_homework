@@ -43,6 +43,8 @@ The allometric equation they describe (<i>V = αL<sup>β</sup></i>) can be expre
 
 <b>d) Write the code to reproduce the figure shown below. (10 points)</b>
 
+<b>e) What is the estimated volume of a 300 kb dsDNA virus? (4 points) </b>
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
