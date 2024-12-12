@@ -54,6 +54,7 @@ The code I wrote is included in `question-5-code.R`. This is the graph I produce
 <b>e) What is the estimated volume of a 300 kb dsDNA virus? (4 points) </b>
 The predicted volume of a 300kb dsDNA virus is 6698070 nm<sup>3</sup>. I obtained this value using the `predict()` function in R to use my linear model to predict the viral volume. I input ln(300) and recieved the output 15.71733 = log(V). <i>e</i><sup>15.71733</sup> = 6698070 nm<sup>3</sup>
 
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
