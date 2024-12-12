@@ -51,6 +51,7 @@ The code I wrote is included in `question-5-code.R`. This is the graph I produce
 ![graph_for_5_d](https://github.com/user-attachments/assets/9cb164db-28f7-4f4c-8ebf-b37fbd1571db)
 <figcaption><i>Figure 2. Graph of the relationship between the natural log of genome length and the natural log of virion volume. Produced with the aim of reproducing the figure given in the question.</i></figcaption>
 
+
 <b>e) What is the estimated volume of a 300 kb dsDNA virus? (4 points) </b>
 The predicted volume of a 300kb dsDNA virus is 6698070 nm<sup>3</sup>. I obtained this value using the `predict()` function in R to use my linear model to predict the viral volume. I input ln(300) and recieved the output 15.71733 = log(V). <i>e</i><sup>15.71733</sup> = 6698070 nm<sup>3</sup>
 
