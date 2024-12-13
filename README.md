@@ -41,8 +41,9 @@ I used a natural logarithm transformation: `log()` in R.
 The allometric equation they describe (<i>V = αL<sup>β</sup></i>) can be expressed as a linear equation, if a natural log (ln) transformation is applied (<i>ln(V) = ln(α) + β * ln(L) </i>)
 
 <b>c) Find the exponent (β) and scaling factor (α) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in Table 2 of the paper, did you find the same values? (10 points) </b>
+
 The estimate of the scaling factor (α) (the intercept of the linear model) I obtained was <b>1181.807</b>. The model output was 7.0748. Since the model was written in terms of ln(α), to find the value of alpha, I calculated <i>e</i><sup> 7.0748</sup> = 1181.807. This had a p-value of 2.28x10<sup>-10</sup>, so was significant at the 99% significance level. 
-The estimate of the exponent (β) (the slope of the linear model) I obtained was <b>1.5142</b>. The linear form of the equation just contains β not logged, so this value required no further calculation. This estimate had a p-value of 6.44x10<sup>-10</sup>, so was also signficant at the 99% significance level. 
+The estimate of the exponent (β) (the slope of the linear model) I obtained was <b>1.5142</b>. This estimate had a p-value of 6.44x10<sup>-10</sup>, so was also signficant at the 99% significance level. 
 
 Cui, et al., 2014, estimate that, for dsDNA viruses, the exponent (β) = 1.52 (with a 95% confidence interval of 1.16–1.87) and the scaling factor (α) = 	1,182 (95% confidence interval: 246–5,675). These estimates are very similar to mine, with small differences that can be attributed to Cui, et al., rounding their estimates. 
  
