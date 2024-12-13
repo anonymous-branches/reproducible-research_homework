@@ -48,7 +48,7 @@ The estimate of the exponent (β) (the slope of the linear model) I obtained was
 Cui, et al., 2014, estimate that, for dsDNA viruses, the exponent (β) = 1.52 (with a 95% confidence interval of 1.16–1.87) and the scaling factor (α) = 	1,182 (95% confidence interval: 246–5,675). These estimates are very similar to mine, with small differences that can be attributed to Cui, et al., rounding their estimates. 
  
 <b>d) Write the code to reproduce the figure shown below. (10 points)</b>
-The code I wrote is included in `question-5-code.R`. This is the graph I produced:
+The code I wrote is included in `question-5-code.R`, within the file `question-5-data`. This is the graph I produced:
 
 
 ![graph_for_5_d](https://github.com/user-attachments/assets/9cb164db-28f7-4f4c-8ebf-b37fbd1571db)
